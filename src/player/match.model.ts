@@ -1,5 +1,5 @@
 import { ObjectType, Field, Int } from '@nestjs/graphql';
-import { PlayerStats } from './player-stats.model';  // Import PlayerStats model
+import { PlayerStats } from './player-stats.model'; 
 
 @ObjectType()
 export class Match {
