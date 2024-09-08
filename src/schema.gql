@@ -1,0 +1,22 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type PlayerStats {
+  playerName: String!
+  kills: Int!
+  deaths: Int!
+  assists: Int!
+}
+
+type Match {
+  matchId: String!
+  gameDuration: Int!
+  gameMode: String!
+  players: [PlayerStats!]!
+}
+
+type Query {
+  getPlayerMatches(summonerName: String!, region: String!): [Match!]!
+  getMatchDetails(matchId: String!, region: String!): Match!
+}
