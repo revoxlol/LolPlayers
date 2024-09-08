@@ -24,19 +24,14 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+A web page that tracks lol player matches and statistques
 
-## Project setup
 
-```bash
-$ npm install
-```
+## Installation
+After Creating your nestjs app with "nest new lol-graphql-backend" 
+1 ) Make sure to run "npm install @nestjs/graphql apollo-server-express graphql @nestjs/apollo axios"
+2 ) Create an .env file for your riot key where the output would be " RIOT_API_KEY=your-riot-api-key-here "
 
-## Compile and run the project
-
-```bash
-# development
-$ npm run start
 
 # watch mode
 $ npm run start:dev
