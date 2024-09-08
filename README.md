@@ -32,3 +32,9 @@ After Creating your nestjs app with "nest new lol-graphql-backend"
 1 ) Make sure to run "npm install @nestjs/graphql apollo-server-express graphql @nestjs/apollo axios"
 2 ) Create an .env file for your riot key where the content is  " RIOT_API_KEY=your-riot-api-key-here "
 
+
+## Execution : 
+With Docker : run " docker-compose up --build " in your terminal
+Without Docker : run " nest start " in your terminal
+
+
