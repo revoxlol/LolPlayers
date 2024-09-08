@@ -1,0 +1,13 @@
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "3000:3000"
+    environment:
+      - RIOT_API_KEY=${RIOT_API_KEY}
+  
+  frontend:
+    build: ./frontend
+    ports:
+      - "5000:5000"
