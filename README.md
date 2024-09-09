@@ -28,7 +28,8 @@ A web page that tracks lol player matches and statistques
 
 
 ## Installation
-After Creating your nestjs app with "nest new lol-graphql-backend" 
+After Creating your nestjs app with "nest new lol-graphql-backend".
+ 
 1 ) Make sure to run "npm install @nestjs/graphql apollo-server-express graphql @nestjs/apollo axios"
 
 2 ) Create an .env file for your riot key where the content is  " RIOT_API_KEY=your-riot-api-key-here "
